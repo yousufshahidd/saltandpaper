@@ -1,0 +1,360 @@
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'futurak';
+    src: url(../assets/futurak.ttf);}
+@font-face{    font-family: 'butler';
+    src: url(Butler/Butler_Regular.otf);
+}
+
+/* red green white black */
+
+:root {
+    --red: #ed1c24;
+    --green: #28a745;
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #0f0f0f;
+}
+
+
+/* navbar started */
+.logo-img {
+    width: 165px;
+}
+
+.nav-items {
+    font-size: 1.6rem;
+   
+}
+.text-decor{
+    text-decoration: none;
+    color: var(--white);
+}
+.nav-bar{
+    margin:0px 66px;
+    padding: 8px 0px;
+}
+
+.franchise-btn {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.order-btn {
+    background-color: var(--red);
+    border: none;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.circle-btn{
+    background-color:white;
+    color: red;
+    padding: 6px 7px;
+    margin: 0px 0px 0px 5px;
+    border:none;
+    border-radius: 25px;
+    font-size: large;
+}
+
+.arrow-icon {
+    color: var(--red);
+}
+
+.icon-bg {
+    background-color: var(--white);
+    padding: 5px 7px;
+    margin-left: 2px;
+    border-radius: 20px;
+}
+
+/* navbar ended */
+/* corosel started */
+.corosel-img{
+    width: 100%;
+}
+/* corosel ended */
+
+
+/* our-brands started */
+
+.secondbox{
+    padding: 70px 15px 160px 15px;
+}
+.heading {
+    margin: 30px;
+}
+
+.heading-brand{
+    font-size: 4rem;
+    font-weight: 200;
+}
+.para-brand{
+    font-size: 2rem;
+    font-weight: 200;
+    color: #ffffffb3;
+}
+.futurak-font{ 
+    
+    font-family: 'Futurak', sans-serif;
+    font-size: 5.2rem;
+}
+.order-brand-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.brand-image{
+    width: 250px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #0f0f0f;
+    padding: 30px 20px;
+    
+}
+.order-gap{
+    gap: 110px;
+}
+.secpgpad{
+    padding:70px 15px 160px ;
+}
+/* our-brands ended*/
+
+ /* third page started */
+
+.thpgpad{
+    padding: 70px;
+    background-color:#0f0f0f;
+}
+.restfranch{
+    font-size: 4.8rem;
+   font-family: 'butler';
+}
+.parathpg{
+    font-size: 1.6rem;}
+.paracolr{
+ color: #B7B7B7;
+}   
+.paracityname{
+    color: var(--red);
+    font-size: 1.6rem;
+}
+.parabrnd{
+    font-size: 32px;
+
+}
+.parabrnd2{
+    font-size: 24px;
+    font-weight:50;
+
+}
+.address{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #B7B7B7;
+}
+.phone{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #B7B7B7;
+
+}
+.getdirectionbtn{
+    background-color:transparent;
+    border: 1px solid #B7B7B7;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+}
+
+
+
+
+ /* third page ended */
+
+
+  /* fourthpage started */
+  .fourth-page{
+    margin-top: 7rem;
+    margin-bottom: 3.8rem;
+    background-color:#0f0f0f;
+  }
+  .branch-name{
+    color: var(--red);
+    font-size: 1.2rem;
+    margin: 24px 0px 8px;
+
+  }
+  .img-branch{
+    width: 356px;
+  }
+  .name-size{
+    font-size: 24px;
+    
+}
+  .name-size2{
+    font-size: 24px;
+    
+  }
+  .address2{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #B7B7B7;
+    margin: 1.2rem;
+  }
+.phone2{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #B7B7B7;
+    margin-bottom: 1.2rem;
+
+}.branches2{
+    background-color: #0f0f0f;
+}
+
+
+  /* fourthpage ended */
+
+
+  /* sixthpage started */
+
+
+
+  .thpgpad2{
+    padding: 70px;
+}
+
+.imgwidth{
+    width: 35.6rem;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.opensoon{
+    font-size: 4rem;
+    font-family: 'butler'
+}
+
+
+  /* sixthpage ended */
+
+  /* <!-- seventhpage started --> */
+.socialfeed{
+    font-family: 'butler';
+    font-size: 3.2rem;
+    color: #B7B7B7;
+    margin-bottom: 3.2rem;
+}
+
+.widthh{
+    width: 28.5rem;
+}
+
+/* <!-- seventhpage ended --> */
+
+/* footer started */
+
+.footer{
+padding: 7rem 1.5rem 0rem 1.5rem;
+}
+.foter-img{
+width: 14rem;
+margin-left: 2.4rem;
+
+}
+.para-foter{
+font-size: 1.35rem;
+padding: 2.4rem;
+color: #ffffffb3;
+width: 37rem;
+}
+.terms{
+    font-size: 1.5rem;
+    color: #B7B7B7;
+    padding: 2.4rem;
+}
+.h-site{
+    font-size: 1.6rem;
+    font-family: 'butler';
+    padding-bottom:2.4rem ;
+
+}
+.home-foter{
+font-size:1.5rem ;
+color:#ffffffb3 ;
+padding-bottom:2.4rem ;
+
+
+}
+.adres-foter{
+    font-size: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+.address-foter{
+    font-size: 1.5rem;
+    color: #ffffffb3;
+    padding-bottom: 1.6rem;
+
+}
+.address-foterr{
+    font-size: 1.5rem;
+    color: #ffffffb3;
+    padding-bottom: 1.6rem;
+    width: 24.6rem;
+
+
+}
+/* <!-- fouthrow started --> */
+
+.facebook{
+    background-color: #ed1c24;
+    width: 10.1rem;
+    border-radius: 0.55rem;
+    height: 10.8rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+.socialmedia{
+    width: 14.1rem;
+    height: 17.9rem;
+}
+.coloor{
+    background-color: #0f0f0f;
+}
+
+
+
+
+
+
+
+/* <!-- fouthrow ended --> */
+
+
+
+
+
+
+
+
+
+/* footer ended */
