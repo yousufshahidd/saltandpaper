@@ -1,0 +1,24 @@
+.frenchead{
+    font-size: 4rem;
+    font-family: 'butler';
+    margin-bottom: 3.2rem;
+    margin-top: 7rem;
+}
+.colr{
+    color: #ffffffb3;
+    font-size: 1.6rem;
+}
+.wdth{
+    width: 54.7rem;
+    padding:0.6rem 3.6rem 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+}
+.submit-btn{
+    background-color: #ffc107;
+    border: none;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
