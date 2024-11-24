@@ -16,6 +16,10 @@
     font-family:apercumedium;
     src: url(../assets/fonts/medium.otf);
 }
+@font-face {
+    font-family:butlerlight;
+    src: url(../assets/Butler_Stencil/Butler_Light_Stencil.otf);
+}
 
 html {
     font-family: "Poppins", sans-serif ,"appercu";
@@ -377,7 +381,15 @@ html {
 .leftallign{
     align-items: end}
 .border{
-border: 2px solid white;}    
-.border-color{border-color: #e20c0c;}   
+border: 2px solid white;
+}    
+.border-color{
+    border-color: #e20c0c;
+}   
 
-.inline{display: inline;}
+.inline{
+    display: inline;
+}
+.allign-center{
+    text-align: center;
+}
